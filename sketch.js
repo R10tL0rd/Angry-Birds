@@ -98,7 +98,7 @@ function keyPressed(){
     }
 }
 
-async function getBackgroundImg(){
+//async function getBackgroundImg(){
 //    var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
 //    var responseJSON = await response.json();
 //

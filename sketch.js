@@ -99,12 +99,12 @@ function keyPressed(){
 }
 
 async function getBackgroundImg(){
-    var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
-    var responseJSON = await response.json();
-
-    var datetime = responseJSON.datetime;
-    var hour = datetime.slice(11,13);
-    hour = 07;
+//    var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
+//    var responseJSON = await response.json();
+//
+  //  var datetime = responseJSON.datetime;
+ //   var hour = datetime.slice(11,13);
+    var hour = 07;
     
     if(hour>=06 && hour<=19){
         bg = "sprites/bg1.png";
